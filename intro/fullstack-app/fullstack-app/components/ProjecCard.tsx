@@ -44,7 +44,7 @@ const ProjectCard: FC<{ project: ProjectWithTasks }> = ({ project }) => {
             className={clsx(
               "h-full text-center text-xs text-white bg-violet-600 rounded-full"
             )}
-            style={{ width: `${progress}` }}
+            style={{ width: `${progress}%` }}
           ></div>
         </div>
         <div className="text-right">
